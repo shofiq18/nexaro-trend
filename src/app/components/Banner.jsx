@@ -47,7 +47,7 @@ export default function AutoCarouselBanner() {
   }, []);
 
   return (
-    <div className="relative overflow-hidden w-full h-[600px]">
+    <div className="relative overflow-hidden w-full h-[600px] mb-10">
       {/* Slides */}
       <AnimatePresence>
         {slides.map(

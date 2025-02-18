@@ -19,9 +19,9 @@ export default function Navbar() {
   );
 
   return (
-    <div className="bg-base-100 sticky top-0 z-50 shadow-md" >
+    <div className="bg-base-100  sticky top-0 z-50 shadow-md" >
       {/* Container for Navbar */}
-      <div className="container mx-auto">
+      <div className="container mx-auto px-4">
         <div className="navbar">
           {/* Navbar Start */}
           <div className="navbar-start">
@@ -46,16 +46,16 @@ export default function Navbar() {
               </div>
               <ul
                 tabIndex={0}
-                className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                className="menu menu-sm dropdown-content bg-base-100 text-white rounded-box z-[1] mt-3 w-52 p-2 shadow">
                 {navOptions}
               </ul>
             </div>
-            <h2 className="text-3xl font-bold">Nexora Trend</h2>
+            <h2 className="text-3xl text-white font-bold">Nexora Trend</h2>
           </div>
 
           {/* Navbar Center */}
           <div className="navbar-center hidden lg:flex">
-            <ul className="menu menu-horizontal gap-4 px-1">{navOptions}</ul>
+            <ul className="menu menu-horizontal gap-4 text-white px-1">{navOptions}</ul>
           </div>
 
           {/* Navbar End */}
